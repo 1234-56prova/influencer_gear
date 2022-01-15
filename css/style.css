@@ -252,6 +252,7 @@
     .product img{
         width: 223px;
         align-items: center;
+        margin-left: 30px;
     }
 
     .product{
@@ -293,3 +294,5 @@
         font-size: 36px;
     }
 }
+
+@media only screen and (max-width:)
