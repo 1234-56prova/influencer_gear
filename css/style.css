@@ -27,3 +27,36 @@ li{
 .fa-search, .fa-shopping-cart{
     font-size: 20px;
 }
+
+.font-size{
+    font-weight: 700;
+    font-size: 52px;
+}
+
+.influencer{
+    width: 50%;
+    padding-top: 30px;
+}
+
+.camera{
+    margin-top: 60px;
+    margin-left: 40px;
+    height: 414px;
+    border: 1px solid #AAAAAA;
+    border-radius: 200px;
+}
+.camera img{
+    width: 100%;
+
+}
+
+.button{
+    background-color: #E02C6D;
+    color: white;
+    width: 196px;
+    height: 44px;
+    font-weight: 900px;
+    border-radius: 100px;
+    text-align: center;
+}
+
