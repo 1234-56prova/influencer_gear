@@ -4,10 +4,18 @@ body{
 
 }
 
-/* display flex */
+/* displays */
 .display-flex{
     display: flex;
 }
+
+.inline{
+    display: inline-block;
+    font-weight: bold;
+}
+
+/* Navigation */
+
 .menubar{
     display: flex;
     padding-left: 700px;
@@ -23,7 +31,6 @@ li{
     padding: 10px 20px;
 }
 
-/* icon */
 .fa-search, .fa-shopping-cart{
     font-size: 20px;
 }
@@ -58,7 +65,10 @@ li{
     font-weight: 900px;
     border-radius: 100px;
     text-align: center;
+    padding-top: 20px;
 }
+/* Logo styles */
+
 
 .logo{
     width: 91px;
@@ -72,5 +82,82 @@ li{
     margin-right: 165px;
     border-top: 1px solid #AAAAAA;
     border-bottom: 1px solid #AAAAAA;
+}
+/* popular collection */
+
+
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1100px;
+    height: 1662px;
+    align-items: center;
+    margin-left: 196px;
+    margin-right: 197px;
+    border-radius: 20px;
+    background-color: #d3cdcdbb;
+}
+
+.product img{
+    padding-top: 17px;
+    padding-left: 14px;
+    padding-right: 15px;
+    padding-bottom: 16px;
+}
+
+.product h3, p, .ratings{
+    padding: 0;
+    display: block;
+    margin-left: 14px;
+}
+
+p{
+    font-size: 11px;
+    font-weight: 1000px;
+}
+
+.product{
+    width: 329px;
+    height: 520px;
+    border-radius: 5px;
+    background-color: white;
+    margin-right: 30px;
+}
+.fa-star{
+    color: orange;
+    padding: 0px;
+}
+
+.center-align{
+    text-align: center;
+    padding: 30px;
+    font-size: 26px;
+}
+
+.margin{
+    margin-left: 30px;
+}
+
+.margin-right{
+    margin-right: 60px;
+}
+
+/* Community */
+
+.gear-image{
+    padding-top: 40px;
+    padding-right: 40px;
+    margin-left: 196px;
+}
+
+.community h3{
+    font-size: 52px;
+}
+.community p{
+    font-size: 20px;
+}
+.community{
+    width: 50%;
 }
 
