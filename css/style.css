@@ -1,194 +1,295 @@
-body{
-    font-family: 'Be Vietnam Pro', sans-serif;
-    margin: 20px 30px;
-
-}
-
-/* displays */
-.display-flex{
-    display: flex;
+@media only screen and (min-width:1024px){
+    body{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin: 20px 30px;
+    }
     
+    /* displays */
+    .display-flex{
+        display: flex;
+}
+    
+    .inline{
+        display: inline-block;
+        font-weight: bold;
+    }
+    
+    /* Navigation */
+    
+    .menubar{
+        display: flex;
+        padding-left: 700px;
+    }
+    
+    .links{
+        text-decoration: none;
+        color: black;
+    }
+    
+    
+    li{
+        list-style: none;
+        padding: 10px 20px;
+    }
+    
+    .fa-search, .fa-shopping-cart{
+        font-size: 20px;
+    }
+    .font-size:hover{
+        border: 1px solid #E02C6D;
+        border-radius: 18px;
+    }
+    .font-size{
+        font-weight: 700;
+        font-size: 52px;
+    }
+    /* First section */
+    .journey-descript{
+        font-size: 18px;
+    }
+    
+    .influencer{
+        width: 50%;
+        padding-top: 30px;
+    }
+    .camera:hover{
+        border: 1px solid #AAAAAA;
+        border-radius: 200px;
+    }
+    .camera{
+        margin-top: 60px;
+        margin-left: 40px;
+        height: 414px;
+    }
+    .camera img{
+        width: 100%;
+    
+    }
+    
+    .button{
+        background-color: #E02C6D;
+        color: white;
+        width: 196px;
+        height: 44px;
+        font-weight: 900px;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: 20px;
+    }
+    /* Logo styles */
+    
+    
+    .logo{
+        width: 91px;
+        height: 38px;
+        padding: 30px 30px;
+    }
+    
+    .companies{
+        margin-top: 80px;
+        margin-left: 165px;
+        margin-right: 165px;
+        border-top: 1px solid #AAAAAA;
+        border-bottom: 1px solid #AAAAAA;
+    }
+    /* popular collection */
+    
+    
+    
+    .products{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 1100px;
+        height: 1662px;
+        align-items: center;
+        margin-left: 196px;
+        margin-right: 197px;
+        border-radius: 20px;
+        background-color: #d3cdcdbb;
+    }
+    
+    .product img{
+        padding-top: 17px;
+        padding-left: 14px;
+        padding-right: 15px;
+        padding-bottom: 16px;
+    }
+    
+    .product h3, .product p, .ratings{
+        padding: 0;
+        display: block;
+        margin-left: 14px;
+    }
+    
+    .product p{
+        font-size: 13px;
+        font-weight: 1000px;
+    }
+    
+    .product{
+        width: 329px;
+        height: 540px;
+        border-radius: 5px;
+        background-color: white;
+        margin-right: 30px;
+    }
+    .fa-star{
+        color: orange;
+        padding: 0px;
+    }
+    
+    .center-align{
+        text-align: center;
+        padding: 30px;
+        font-size: 26px;
+    }
+    
+    .align-right{
+        text-align: right;
+        color: #E02C6DDE;
+    
+    }
+    .margin{
+        margin-left: 30px;
+    }
+    
+    .margin-right{
+        margin-right: 60px;
+    }
+    
+    /* Community */
+    
+    .gear-image{
+        padding-top: 100px;
+        padding-right: 40px;
+        margin-left: 196px;
+    }
+    
+    .community h3{
+        font-size: 52px;
+    }
+    .community p{
+        font-size: 20px;
+    }
+    .community{
+        padding-left: 50px;
+        width: 50%;
+        padding-top: 100px;
+    }
+    
+    /* footer */
+    .footer{
+        margin-top: 100px;
+        background-color: navy;
+        text-align: center;
+        width: 100%;
+        color: white;
+    }
+    
+    .fab{
+        padding: 15px;
+    } 
 }
 
-.inline{
-    display: inline-block;
-    font-weight: bold;
-}
-
-/* Navigation */
-
-.menubar{
-    display: flex;
-    padding-left: 700px;
-}
-
-.links{
-    text-decoration: none;
-    color: black;
-}
 
 
-li{
-    list-style: none;
-    padding: 10px 20px;
-}
+@media only screen and (max-width:688px) {
+    body{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        margin-left: 20px;
+    }
+    .menubar{
+        display: none;
+    }
 
-.fa-search, .fa-shopping-cart{
-    font-size: 20px;
-}
-.font-size:hover{
-    border: 1px solid #E02C6D;
-    border-radius: 18px;
-}
-.font-size{
-    font-weight: 700;
-    font-size: 52px;
-}
-/* First section */
-.journey-descript{
-    font-size: 18px;
-}
+    .header{
+        text-align: center;
+    }
 
-.influencer{
-    width: 50%;
-    padding-top: 30px;
-}
-.camera:hover{
-    border: 1px solid #AAAAAA;
-    border-radius: 200px;
-}
-.camera{
-    margin-top: 60px;
-    margin-left: 40px;
-    height: 414px;
-}
-.camera img{
-    width: 100%;
+    .camera img{
+        width: 200px;
+        margin: 30px;
+    }
+    .influencer{
+        display: block;
+    }
 
+    .journey-descript{
+        margin-right: 20px;
+    }
+
+    .button{
+        background-color: #E02C6D;
+        color: white;
+        width: 194px;
+        height: 44px;
+        font-weight: 900px;
+        border-radius: 100px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    .logo{
+        width: 20px;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+
+    .center-align{
+        text-align: center;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 150x;
+        align-items: center;
+        margin-left: 7px;
+        margin-right: 6px;
+        border-radius: 20px;
+    }
+
+    .product img{
+        width: 223px;
+        align-items: center;
+    }
+
+    .product{
+        padding-bottom: 20px;
+        margin-bottom: 30px;
+        box-shadow: 1px #AAAAAA;
+    }
+    
+    .fa-star{
+        color: orange;
+    }
+
+    .inline{
+        display: inline-block;
+    }
+
+    .align-right{
+        text-align: right;
+        color:#E02C6D;
+    }
+
+    .gear-image img{
+        width: 150px;
+        margin-top: 40px;
+        margin-left: 40px;
+    }
+
+    .footer{
+        background-color: navy;
+        color: white;
+        text-align: center;
+    }
+
+    .fab{
+        padding: 10px;
+    }
+
+    .bold{
+        font-size: 36px;
+    }
 }
-
-.button{
-    background-color: #E02C6D;
-    color: white;
-    width: 196px;
-    height: 44px;
-    font-weight: 900px;
-    border-radius: 100px;
-    text-align: center;
-    padding-top: 20px;
-}
-/* Logo styles */
-
-
-.logo{
-    width: 91px;
-    height: 38px;
-    padding: 30px 30px;
-}
-
-.companies{
-    margin-top: 80px;
-    margin-left: 165px;
-    margin-right: 165px;
-    border-top: 1px solid #AAAAAA;
-    border-bottom: 1px solid #AAAAAA;
-}
-/* popular collection */
-
-
-
-.products{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 1100px;
-    height: 1662px;
-    align-items: center;
-    margin-left: 196px;
-    margin-right: 197px;
-    border-radius: 20px;
-    background-color: #d3cdcdbb;
-}
-
-.product img{
-    padding-top: 17px;
-    padding-left: 14px;
-    padding-right: 15px;
-    padding-bottom: 16px;
-}
-
-.product h3, .product p, .ratings{
-    padding: 0;
-    display: block;
-    margin-left: 14px;
-}
-
-.product p{
-    font-size: 13px;
-    font-weight: 1000px;
-}
-
-.product{
-    width: 329px;
-    height: 540px;
-    border-radius: 5px;
-    background-color: white;
-    margin-right: 30px;
-}
-.fa-star{
-    color: orange;
-    padding: 0px;
-}
-
-.center-align{
-    text-align: center;
-    padding: 30px;
-    font-size: 26px;
-}
-
-.align-right{
-    text-align: right;
-    color: #E02C6DDE;
-
-}
-.margin{
-    margin-left: 30px;
-}
-
-.margin-right{
-    margin-right: 60px;
-}
-
-/* Community */
-
-.gear-image{
-    padding-top: 100px;
-    padding-right: 40px;
-    margin-left: 196px;
-}
-
-.community h3{
-    font-size: 52px;
-}
-.community p{
-    font-size: 20px;
-}
-.community{
-    padding-left: 50px;
-    width: 50%;
-    padding-top: 100px;
-}
-
-/* footer */
-.footer{
-    margin-top: 100px;
-    background-color: navy;
-    text-align: center;
-    width: 100%;
-    color: white;
-}
-
-.fab{
-    padding: 15px;
-}
-
-
