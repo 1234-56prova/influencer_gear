@@ -60,3 +60,17 @@ li{
     text-align: center;
 }
 
+.logo{
+    width: 91px;
+    height: 38px;
+    padding: 30px 30px;
+}
+
+.companies{
+    margin-top: 80px;
+    margin-left: 165px;
+    margin-right: 165px;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #AAAAAA;
+}
+
